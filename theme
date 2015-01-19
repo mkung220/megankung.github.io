@@ -1,0 +1,699 @@
+
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8 ie7" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+    <!-- Copenhagen Theme -->
+    <title>Megan Kung</title>
+    
+    <!-- IE Mobile 10.0 rendering bug fix -->
+    <script>(function(){if("-ms-user-select"in document.documentElement.style&&navigator.userAgent.match(/IEMobile\/10\.0/)){var a=document.createElement("style");a.appendChild(document.createTextNode("@-ms-viewport{width:auto!important}"));document.getElementsByTagName("head")[0].appendChild(a)}})();</script>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    
+    <meta name="description" content="Megan Kung is a San Francisco Bay Area based photographer and designer currently studying at California College of the Arts.">
+    <meta name="keywords" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+        
+    <meta name="revisit-after" content="3 days" />
+    <meta property="og:type" content="website" />
+    
+    <meta property="og:title" content="Megan Kung - Megan Kung" />
+    <meta property="og:url" content="http://megankung.virb.com/megan-kung" />
+    <meta property="og:image" content="" />
+
+    <meta property="og:description" content="Megan Kung is a San Francisco Bay Area based photographer and designer currently studying at California College of the Arts." />
+
+
+    <meta property="og:image" content="http://media.virbcdn.com/cdn_images/resize_500x500/5d/14b751251d484c94-_MG_2872.jpg" />
+
+
+    <link rel="shortcut icon" href="http://media.virbcdn.com/cdn_images/crop_48x48/14/4aba729cab98bc07-logo2.png">
+    <link rel="apple-touch-icon" href="http://media.virbcdn.com/cdn_images/crop_150x150/14/4aba729cab98bc07-logo2.png">
+
+
+    <!-- CSS
+    ================================================== -->
+    <style type="text/css">/* Icon Font */
+@font-face {
+    font-family: 'themes-Regular';
+    src: url('http://assets.virbcdn.com/_assets/_fonts/_icons/themes-regular.eot');
+    src: url('http://assets.virbcdn.com/_assets/_fonts/_icons/themes-regular.eot?#iefix') format('embedded-opentype'),
+         url('http://assets.virbcdn.com/_assets/_fonts/_icons/themes-regular.woff') format('woff'),
+         url('http://assets.virbcdn.com/_assets/_fonts/_icons/themes-regular.ttf') format('truetype'),
+         url('http://assets.virbcdn.com/_assets/_fonts/_icons/themes-regular.svg#global-regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pecita';
+    src: url('http://assets.virbcdn.com/_assets/_fonts/Pecita-webfont.eot');
+    src: url('http://assets.virbcdn.com/_assets/_fonts/Pecita-webfont.eot?#iefix') format('embedded-opentype'),
+    url('http://assets.virbcdn.com/_assets/_fonts/Pecita-webfont.woff') format('woff'),
+    url('http://assets.virbcdn.com/_assets/_fonts/Pecita-webfont.ttf') format('truetype'),
+    url('http://assets.virbcdn.com/_assets/_fonts/Pecita-webfont.svg#webfont') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}@font-face {
+    font-family: 'Questrial';
+    src: url('http://assets.virbcdn.com/_assets/_fonts/Questrial-Regular-webfont.eot');
+    src: url('http://assets.virbcdn.com/_assets/_fonts/Questrial-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('http://assets.virbcdn.com/_assets/_fonts/Questrial-Regular-webfont.woff') format('woff'),
+    url('http://assets.virbcdn.com/_assets/_fonts/Questrial-Regular-webfont.ttf') format('truetype'),
+    url('http://assets.virbcdn.com/_assets/_fonts/Questrial-Regular-webfont.svg#webfont') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Icon Fonts */
+@font-face {
+    font-family: 'copenhagen-regular';
+    src: url('http://assets.virbcdn.com/_assets/_fonts/_icons/copenhagen-regular.eot');
+    src: url('http://assets.virbcdn.com/_assets/_fonts/_icons/copenhagen-regular.eot?#iefix') format('embedded-opentype'),
+    url('http://assets.virbcdn.com/_assets/_fonts/_icons/copenhagen-regular.woff') format('woff'),
+    url('http://assets.virbcdn.com/_assets/_fonts/_icons/copenhagen-regular.ttf') format('truetype'),
+    url('http://assets.virbcdn.com/_assets/_fonts/_icons/copenhagen-regular.svg#copenhagen-regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* BACKGROUND IMAGES */
+body {
+    
+
+
+
+}
+
+/* COLORS */
+
+/* Body */
+body,
+nav#main-nav #menu li.section ul,
+.share-buttons ul,
+#ui-datepicker-div .ui-datepicker-calendar:before {
+    background-color: #fcfcfc;
+}
+
+.wrapper {
+    background-color: none;
+}
+
+/* Site Name */
+.logo h1 a {
+    color: #000000;
+}
+
+/* Subtitle */
+.logo h2 {
+    color: #424242;
+}
+
+/* Navigation */
+#menu li a {
+    color: #2b2b2b;
+}
+
+/* Navigation Rollover */
+#menu li a:hover,
+#menu li.current a,
+#menu li.section ul li.current a,
+#menu li.section span,
+#menu li.section:hover span {
+    color: #000000;
+}
+
+.cart-link:hover {
+	background-color: #000000;
+}
+
+/* Primary */
+.content-editor,
+.large-gallery .details p,
+.product-description,
+.product-specifics .price,
+.items-in-cart .price,
+#store-cart .total .price,
+#blog #filter,
+table.ui-datepicker-calendar td a,
+table.ui-datepicker-calendar td a:hover,
+table.ui-datepicker-calendar td a.ui-state-highlight,
+table.ui-datepicker-calendar td a.ui-state-default,
+table.ui-datepicker-calendar td a.ui-state-hover,
+table.ui-datepicker-calendar td.ui-state-disabled span.ui-state-default,
+table.ui-datepicker-calendar .ui-datepicker-calendar thead tr th,
+ul.OT_list li:after,
+#datepicker .ui-widget-header,
+#ui-datepicker-div .ui-widget-header,
+ul.OT_list li input,
+.ui-datepicker-calendar thead tr th span,
+#main-content .grid-gallery .large-gallery li .details .meta a,
+#contact-form fieldset ul li input,
+#contact-form fieldset ul li textarea,
+#contact-form fieldset .captcha #captcha-list li a {
+    color: #000000;
+}
+
+#blog > ul > li article footer .footer-item.tags-categories span {
+    color: #000000;
+}
+
+/* Accent */
+.cart-link-large,
+.category-dropdown,
+.download,
+#main-content .audio .bandcamp-link,
+input[type="submit"],
+#handle,
+.audio-player ol li .length .load,
+.audio-player ol li .length .progress,
+.opentable form#OT_form .OT_wrapper ul.OT_list li.OT_submit a.OT_Find_a_Table,
+.opentable li.OT_navListItem a.OT_navLink:hover, 
+.opentable li.OT_navListItem a.OT_navLink.selected,
+.opentable li.OT_navListItem a.OT_navLink.selected:hover,
+#datepicker table.ui-datepicker-calendar td a.ui-state-active,
+.video .vjs-control-bar .vjs-volume-level,
+.video .vjs-control-bar .vjs-play-progress {
+    background-color: #323232;
+}
+
+.audio-player .title,
+.audio-player .controls a.play-pause,
+#blog #filter p em,
+#main-content .menu .menu-list li .price,
+#contact-form fieldset ul li .parsley-error-list li  {
+    color: #323232;
+}
+
+/* Accent Text */
+.cart-link,
+.cart-link:hover,
+.category-dropdown,
+.download,
+#main-content .audio .bandcamp-link,
+.download:hover,
+input[type="submit"],
+.add-to-cart,
+.add-to-cart:hover,
+.ui-datepicker table.ui-datepicker-calendar td a.ui-state-active,
+#contact-form fieldset .captcha #captcha-list li a:hover,
+#contact-form fieldset .captcha #captcha-list li a.selected,
+#contact-form fieldset ul.parsley-errors-list li {
+    color: #ffffff;
+}
+
+.cart-actions .checkout,
+.cart-actions .checkout:hover,
+.delete,
+.delete:hover,
+.tumblr-sharing a,
+.tumblr-sharing a:hover,
+#main-content .index .pagination li.current a,
+.widgets .audio .audio-player ol li .controls .play-pause,
+.widgets .audio .audio-player ol li .controls .play-pause:hover,
+.widgets .audio .audio-player ol li .controls .pause,
+.index li .image-container:after {
+    color: #ffffff;
+}
+
+/* Muted */
+.audio-player .time,
+.items-in-cart .product-option,
+.items-in-cart .price .currency,
+#store-cart .total .label,
+#store-cart .total .currency,
+#blog > ul > li article footer .footer-item.datetime time,
+#blog > ul > li article.quote blockquote p span,
+.navigation .count,
+.events .info span,
+#main-content .vertical-gallery .large-gallery li .details p, 
+#main-content .horizontal-gallery .large-gallery li .details p, 
+#main-content .slideshow-gallery .large-gallery li .details p, 
+#main-content .slideshow-thumbnails-gallery .large-gallery li .details p,
+#main-content .index .normal li a .titles h3,
+a p.price,
+.product-title-price p.price,
+.widgets .widget .date,
+.widgets .widget .date a,
+#main-content ul.contact-info li .type,
+#main-content .menu .menu-list li p,
+#main-content .grid-gallery .large-gallery li .details .meta {
+    color: #585858;
+}
+
+.contact .captcha #captcha-list li a {
+    background-color: #585858;   
+}
+
+/* Titles */
+#blog > ul > li header h1 a,
+.audio-player li.playing .title,
+.audio-player li.playing .controls a,
+.index .titles h3,
+.events .title,
+.large-gallery a .details h2,
+.large-gallery .details h2,
+.content-editor h1, .content-editor h2, .content-editor h3, .content-editor h4,
+#main-content .menu .menu-list li h2.item-title {
+    color: #000000;
+}
+
+.product-specifics h1,
+.items-in-cart .product-title a {
+    color: #000000;
+}
+
+/* Page Titles */
+#page-title,
+#page-title a,
+#main-content .menu .menu-list li.has-sub-items h2.section-title {
+    color: #454545;
+}
+
+/* Widget Titles */
+.widgets .widget h2 {
+    color: #484848;
+}
+
+/* Widget Text */
+.widgets .widget p {
+    color: #000000;
+}
+
+/* Link */
+a,
+.sharing .share-label,
+#datepicker .ui-datepicker-header .ui-datepicker-next.ui-datepicker-next-hover span,
+#datepicker .ui-datepicker-header .ui-datepicker-prev.ui-datepicker-prev-hover span,
+#ui-datepicker-div .ui-datepicker-header .ui-datepicker-next.ui-datepicker-next-hover span,
+#ui-datepicker-div .ui-datepicker-header .ui-datepicker-prev.ui-datepicker-prev-hover span,
+#main-content .grid-gallery .large-gallery li .details .meta a:hover {
+    color: #555555;
+}
+
+.delete,
+.cart-actions .checkout,
+.add-to-cart,
+.tumblr-sharing a,
+.widgets .audio .audio-player ol li .controls .play-pause,
+.opentable form#OT_form .OT_wrapper ul.OT_list li.OT_submit a.OT_Find_a_Table,
+#datepicker table.ui-datepicker-calendar td a.ui-state-active,
+#ui-datepicker-div table.ui-datepicker-calendar td a.ui-state-active,
+table.ui-datepicker-calendar td a:hover.ui-state-active,
+.opentable a.OT_navLink:hover, 
+.opentable a.OT_navLink.selected,
+.contact .captcha #captcha-list li a:hover,
+.contact .captcha #captcha-list li a.selected,
+#contact-form fieldset ul.parsley-errors-list li {
+	background-color: #555555;
+}
+
+.sharing .share-buttons ul,
+#contact-form fieldset ul.parsley-errors-list li:before {
+    border-color: #555555;
+}
+table.ui-datepicker-calendar td a:hover,
+table.ui-datepicker-calendar td a.ui-state-active {
+    outline-color: #555555;
+}
+
+/* Link Rollover */
+a:hover,
+.share-label:hover,
+.audio-player .controls a.play-pause:hover,
+.audio-player .controls a.pause,
+.widgets .widget .date a:hover,
+.sharing.open .share-buttons .share-label,
+#main-content .categories li.selected a {
+    color: #000000;
+}
+.tumblr-sharing a:hover,
+#main-content .category-dropdown:hover,
+.download:hover,
+#main-content .audio .bandcamp-link:hover,
+#main-content .index .pagination li.current a,
+.add-to-cart:hover,
+.delete:hover,
+.cart-actions .checkout:hover,
+.widgets .audio .audio-player ol li .controls .play-pause:hover,
+.widgets .audio .audio-player ol li .controls .pause,
+.opentable form#OT_form .OT_wrapper ul.OT_list li.OT_submit a.OT_Find_a_Table:hover,
+#contact-form input[type="submit"]:hover {
+	background-color: #000000;
+}
+
+.index li .image-container:before {
+    background-color: #000000;
+}
+
+/* Borders */
+#blog > ul > li,
+#blog > ul > li article footer .footer-item,
+#blog.post > ul > li article footer,
+.audio-player ol li,
+.events li,
+input[type="password"],
+.items-in-cart li,
+.widgets .widget,
+.toggle,
+nav#main-nav ul li, nav#main-nav ul li.section,
+nav#main-nav ul li .cart-link-small,
+nav#main-nav ul,
+#site-header,
+#site-header.has-cart,
+nav#main-nav ul#menu,
+#main-content .listing .listing-list li,
+#main-content .menu .menu-list li.has-sub-items ul.sub-items,
+#main-content .menu section.content-editor,
+#main-content .listing section.content-editor,
+#ui-datepicker-div.ui-datepicker,
+table.ui-datepicker-calendar thead tr,
+table.ui-datepicker-calendar tr,
+table.ui-datepicker-calendar tr td,
+.opentable form#OT_form .OT_wrapper ul.OT_list li input,
+.opentable form#OT_form .OT_wrapper ul.OT_list li .OT_navList,
+.ui-datepicker .ui-datepicker-header,
+#ui-datepicker-div .ui-datepicker-header:before,
+.ui-datepicker-calendar,
+#contact-form fieldset ul li input,
+#contact-form fieldset ul li textarea {
+    border-color: #393939;
+}
+
+.slider-track-x,
+.widgets .audio .audio-player ol li .length,
+#blog .audio .audio-player ol li .length,
+#store-detail .options {
+    background-color: #393939;
+}
+
+.widgets .audio .audio-player ol li .info .time {
+	color: #393939;
+}
+
+
+
+/* FONT FAMILY */
+
+/***** body font family *****/
+body, 
+#datepicker .ui-datepicker-header .ui-datepicker-title span.ui-datepicker-month,
+#datepicker .ui-datepicker-header .ui-datepicker-title span.ui-datepicker-year,
+#ui-datepicker-div .ui-datepicker-header .ui-datepicker-title span.ui-datepicker-month,
+#ui-datepicker-div .ui-datepicker-header .ui-datepicker-title span.ui-datepicker-year,
+.opentable form#OT_form .OT_wrapper ul.OT_list li.OT_submit a.OT_Find_a_Table {
+    font-family: 'Questrial', Helvetica, Arial, sans-serif;
+}
+
+/***** site name font family *****/
+.logo h1 {
+    font-family: 'Pecita', Helvetica, Arial, sans-serif;
+}
+
+/***** navigation font family *****/
+nav#main-nav,
+.cart-link {
+    font-family: 'Questrial', Helvetica, Arial, sans-serif;
+}
+
+/***** titles font family *****/
+#page-title,
+.logo h2,
+#blog #page-title a,
+.widgets .widget h2,
+.index .titles h2,
+.events ul li h2,
+.events ul li .info,
+#blog > ul > li header h1,
+#main-content ul.contact-info li.name .value,
+#main-content ul.contact-info li .type,
+#main-content .menu .menu-list li h2.item-title {
+    font-family: 'Questrial', Helvetica, Arial, sans-serif;
+}
+
+.details h2,
+.content-editor h1,
+.content-editor h2,
+.content-editor h3,
+.content-editor h4,
+.audio-player ol li .info h2,
+#store-cart .items-in-cart li .product-title a,
+#main-content #store-detail .product-specifics h1,
+#main-content #store-detail .product-specifics h2,  
+.menu h2.section-title {
+    font-family: 'Questrial', Helvetica, Arial, sans-serif;
+}
+
+
+/* FONT SIZES */
+
+/**** global font size *****/
+body {
+    font-size: 85%;
+}
+
+
+/**** site title font size *****/
+.logo {
+    font-size: 105%;
+}
+
+
+/**** navigation font size *****/
+nav#main-nav ul li,
+.cart-link {
+    font-size: 90%;
+}
+
+
+/**** page titles font size *****/
+#main-content #page-title {
+    font-size: 110%;
+}
+
+
+/**** content font size *****/
+#main-content .content-editor {
+    font-size: 95%;
+}
+
+
+/**** widgets font size *****/
+.widgets {
+    font-size: 95%;
+}
+
+
+/**** footer font size *****/
+footer#site-footer {
+    font-size: 70%;
+}
+
+
+
+@media only screen and (max-width: 700px) {
+	
+	/* Mobile Navigation */
+	#menu li a:hover,
+	#menu li.current a,
+	#menu li.section ul li.current a,
+	#menu li.section:hover span,
+	nav#main-nav ul li.section:hover:after {
+    	color: #ffffff;
+	}
+	
+	#menu li.section span,
+	nav#main-nav ul li.section:after {
+		color: #2b2b2b;
+	}
+	
+	#menu li a:hover,
+	#menu li.current a,
+	#menu li.section ul li.current a,
+	#menu li.section:hover span {
+		background-color: #000000;
+	}
+	
+	
+	
+}</style>
+    <link rel="stylesheet" href="http://assets.virbcdn.com/_assets/_themes/copenhagen-2/css/base.css">
+    <!--[if (lte IE 8)&(!IEMobile)]><link rel="stylesheet" href="http://assets.virbcdn.com/_assets/_themes/copenhagen-2/css/ie.css"><![endif]-->
+    <link rel="stylesheet" href="http://assets.virbcdn.com/_assets/video-js/video-js.min.css">
+<link rel="stylesheet" href="http://assets.virbcdn.com/_assets/video-js/video-js-overrides.css">
+
+    <style type="text/css">
+</style>
+    
+    <!-- IE
+    ================================================== -->
+    <!--[if lte IE 8]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <script type="text/javascript" charset="utf-8" src="http://assets.virbcdn.com/_min/1420558861&b=_assets&f=_js/_plugins/modernizr/2.5.3.js,_js/jquery/1.7.2.js,_js/_plugins/swfobject/2.2.js,_js/jquery/easing.1.3.js,video-js/video.dev.js,video-js/video-js-embed.js"></script>
+    <!-- ga.js -->
+<script type="text/javascript">
+
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-4266223-5']);
+_gaq.push(['_setDomainName', 'none']);
+_gaq.push(['_setAllowLinker', true]);
+_gaq.push(['_trackPageview']);
+
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+</script>
+
+
+<script type="text/javascript" charset="utf-8">videojs.options.flash.swf = "http://assets.virbcdn.com/_assets/video-js/video-js.swf"</script>
+</head>
+<body class="homepage">
+    <div class="wrapper">
+        
+ 
+        
+    <header id="site-header" class="group">       
+        
+        <div class="logo">
+            <!--No Logo-->
+            <h1><a href="http://megankung.virb.com/">Megan Kung</a></h1>
+            
+            <!--Subtitle-->
+        </div>
+    </header>
+        
+    <nav id="main-nav">
+        <span class="toggle">
+            <a href="#open-close" data-icon="&equiv;">Menu</a>
+        </span>
+        <ul id="menu" class="group">
+                                                <li class="current page page_title"><a href="http://megankung.virb.com/megan-kung" >Megan Kung</a></li>
+                                <li class="section page_title">
+                    <span>2014</span>
+                    <ul>
+                        <li class=" page page_in_a_section"><a href="http://megankung.virb.com/suitcase-self-portrait" >Suitcase (Self-Portrait), 2014</a></li>
+                        <li class=" page page_in_a_section"><a href="http://megankung.virb.com/home" >Home, 2014</a></li>
+                        <li class=" page page_in_a_section"><a href="http://megankung.virb.com/internal" >Internal, 2014</a></li>
+                        <li class=" page page_in_a_section"><a href="http://megankung.virb.com/almost" >Almost, 2014</a></li>
+                        <li class=" page page_in_a_section"><a href="http://megankung.virb.com/soon-please" >Soon Please, 2014</a></li>
+                    </ul>
+                </li>
+                                                <li class="section page_title">
+                    <span>2013</span>
+                    <ul>
+                        <li class=" page page_in_a_section"><a href="http://megankung.virb.com/memento" >Memento, 2013</a></li>
+                    </ul>
+                </li>
+                                                <li class="section page_title">
+                    <span>2012</span>
+                    <ul>
+                        <li class=" page page_in_a_section"><a href="http://megankung.virb.com/untitled-demons" >Untitled (Demons), 2012</a></li>
+                        <li class=" page page_in_a_section"><a href="http://megankung.virb.com/innocence" >Innocence, 2012</a></li>
+                        <li class=" page page_in_a_section"><a href="http://megankung.virb.com/untitled-textiles" >Untitled (Textiles), 2012</a></li>
+                    </ul>
+                </li>
+                                                                <li class=" page page_title"><a href="http://megankung.virb.com/about" >about</a></li>
+                                                <li class=" page page_title"><a href="http://megankung.virb.com/contact" >contact</a></li>
+                                                <li class=" page page_title"><a href="http://megankung.virb.com/blog" >blog</a></li>
+             
+        </ul>
+    </nav>    
+
+    <div class="main-container">
+
+            <!-- Primary Page Layout
+            ================================================== -->
+            
+            
+            <div id="main-content" role="main" class="group">
+                
+
+
+                        
+				
+				
+
+				
+				
+
+                
+                
+                <!-- PAGE TYPE: Gallery -->
+                    <h1 id="page-title" >Megan Kung</h1>
+
+                    <section class="horizontal-gallery  ">
+                      <ul class="thumbnails">
+                         
+                           <li >
+                               <a href="" data-type="photo" data-source="" title="">
+                                                                                                               <img src="http://assets.virbcdn.com/_assets/_graphics/invisible_1x1.gif" data-src="http://media.virbcdn.com/cdn_images/resize_500x500/5d/14b751251d484c94-_MG_2872.jpg" data-width="500" data-height="347" alt="14b751251d484c94-_MG_2872.jpg" />
+
+
+
+
+                               </a>
+                           </li>
+                      </ul>
+                                          
+                      
+                          <div class="horizontal-gallery-container">
+                              <ul class="large-gallery">
+                                  <li class="count_1 landscape" data-id="i9252292" data-type="photo">
+                                      <div class="media-container">
+                                                                                            
+
+                                                    <img src="http://assets.virbcdn.com/_assets/_graphics/invisible_1x1.gif" data-src="http://media.virbcdn.com/cdn_images/resize_1024x1024/5d/14b751251d484c94-_MG_2872.jpg" data-width="1024" data-height="711" data-full-src="http://media.virbcdn.com/cdn_images/resize_1600x1600/5d/14b751251d484c94-_MG_2872.jpg" alt="14b751251d484c94-_MG_2872.jpg" />
+
+
+
+
+                                                                                </div>
+                                  </li>
+                              </ul>
+                          </div>
+
+                      
+                      
+                      
+                    </section>
+                    
+                
+
+                
+                
+				
+				
+            </div>                                   
+
+
+     
+            <footer id="site-footer">
+                <p><cite>&copy; Megan Kung 2014</cite></p>
+            </footer>
+ 
+        
+        </div> <!-- end wrapper -->
+    </div> <!-- end container -->
+
+    </div>
+
+
+    <!-- JS
+    ================================================== -->
+    <script type="text/javascript" charset="utf-8">var siteSettings = {"debug":false,"virbDomain":"virb.com","virbCDNDomain":"assets.virbcdn.com","requestDomain":"megankung.virb.com","pageUrlId":"1656564","pageUrl":"megan-kung","maintenance":{"on":false,"authed":false},"isMobile":false,"isIpad":false,"isTablet":false,"isWindowsPhone7":false,"store":{"link_to_cart":false},"gallery":{"lightbox":false,"slideshow":false,"slideshow_thumbnails":false,"autoplay":false,"autoplay_delay":"5000","startOn":"thumbs","format":"horizontal"}};</script><script type="text/javascript" charset="utf-8" src="http://assets.virbcdn.com/_min/1420558859&b=_assets&f=_js/_site/mustache/site.js,_js/_site/mustache/audio.js,_js/touch.js,_js/_site/mustache/gallery.2.js,_js/_site/mustache/slider.2.js,_themes/copenhagen-2/javascripts/script.js"></script>
+<script type="text/javascript" charset="utf-8" src="http://virb.com/services/hud/default/megankung.virb.com/megan-kung"></script>
+
+<!-- End Document
+================================================== -->
+</body>
+</html>
